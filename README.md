@@ -7,7 +7,7 @@ Steps taking place in this repo-
 2. Dockerfile builds the docker image and runs the train.py during image generation such that the docker image already contains serialized trained model for inference
 3. Once the container is setup and running- we can execute api.py in the container to be able get real time prediction
 
-Commands needs to run through terminal-
+Commands need to run through terminal-
 1. To be build docker image which would train the model and save the serialized object in the image---     
  docker build -t docker-api -f Dockerfile .
 
